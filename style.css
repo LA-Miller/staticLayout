@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vw;
+    min-width: 800px;
+    background-image: url(./assets/gradient-violet-bg.jpg);
+}
+.navBar{
+    background-color: transparent;
+    position: sticky;   
+    top: 0px;
+}
+
+.navbar img {
+    
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+
+.landing {
+    left: auto;
+    height: 50%;
+    border: 0px none transparent;
+    border-radius: 0px;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: all 300ms ease;
+    margin-top: -80px;
+}
+
+.landing h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.landing p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    font-size: 20px;
+}
+.landing img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    margin-top: 150px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: darkorange;
+    color: white;
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+}
+
+article {
+    flex: 4;
+    margin: 0 auto;
+    padding: 1%;
+    background: white;
+}
+
+article h3, h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+article img {
+    max-width:30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.what {
+    background-image: url(./assets/green-bg.jpg);
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.what p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+}
+
+.what h1 {
+    font-size: 50px;
+}
